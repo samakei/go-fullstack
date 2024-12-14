@@ -3,7 +3,7 @@ const router = express.Router();
 const stuffCtrl = require('../controllers/stuff');
 
 
-
+// routers des Api
 router.post('/', stuffCtrl.createThing);
 router.put('/:id', stuffCtrl.modifyThing);
 router.delete('/:id', stuffCtrl.deleteThing);
